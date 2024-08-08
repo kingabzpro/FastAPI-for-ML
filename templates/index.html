@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iris Flower Prediction</title>
+</head>
+<body>
+    <h1>Predict Iris Flower Species</h1>
+    <form action="/predict" method="post">
+        <label for="sepal_length">Sepal Length:</label>
+        <input type="number" step="any" id="sepal_length" name="sepal_length" required><br>
+        <label for="sepal_width">Sepal Width:</label>
+        <input type="number" step="any" id="sepal_width" name="sepal_width" required><br>
+        <label for="petal_length">Petal Length:</label>
+        <input type="number" step="any" id="petal_length" name="petal_length" required><br>
+        <label for="petal_width">Petal Width:</label>
+        <input type="number" step="any" id="petal_width" name="petal_width" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
